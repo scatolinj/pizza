@@ -31,7 +31,8 @@ function setup() {
 
 function draw() {
     background(0);
-    mostraBolinha();
+julia();
+
     movimentaBolinha();
     verificaColisaoBorda();
     mostraRaquete(xRaquete, yRaquete);
@@ -43,7 +44,7 @@ function draw() {
     incluiPlacar() 
     marcaPonto();
 }
-function mostraBolinha() {
+function julia () {
   circle(xBolinha, yBolinha, diametro);
 }
 
